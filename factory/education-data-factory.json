@@ -1,0 +1,9 @@
+{
+	"name": "education-data-factory",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "906cc20d-81b1-43fc-b8c7-00952512effc",
+		"tenantId": "ddaefc43-6062-456e-b110-98a82695e5c3"
+	}
+}

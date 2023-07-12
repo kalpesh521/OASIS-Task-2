@@ -1,0 +1,16 @@
+{
+	"name": "SqlServerSH_LS",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=eduserver521.database.windows.net;initial catalog=educationDB;user id=kalpesh521",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIzN2ZiMzhiYS03OWE3LTQ2ZTktYTBkMC1jNTdhZmNhMDFkZTAiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "IR-self-hosted",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
